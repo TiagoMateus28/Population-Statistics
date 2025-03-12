@@ -1,9 +1,9 @@
 
+from dotenv import load_dotenv
 import os
 
-from dotenv import load_dotenv
-
-
+# Load environment variables
+load_dotenv()
 
 # Configuration class
 class Config:
