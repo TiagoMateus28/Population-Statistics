@@ -29,7 +29,7 @@ For these challenge, you need:
 Additional: creating a requirements file `pip -freeze > requirements.txt`.
 
 
-#Set up environment variables
+# Set up environment variables
 
 1. API_KEY=your_population_api_key_here
 2. API_URL = https://api.api-ninjas.com/v1/population
@@ -37,7 +37,7 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 # How to run
 
 1. Ensure the virtual environment is active
-2. Use uvicorn to start 
+2. Use the following command "uvicorn main:app --reload"
 
 
 
