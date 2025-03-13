@@ -54,11 +54,11 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 
 # API Documentation
 
-## The API exposes one endpoint (for now):
+### The API exposes one endpoint (for now):
 
 GET /population/{country_name}
 
-## Description
+### Description
 
 Fetches the current population size for a given country and year.
 
