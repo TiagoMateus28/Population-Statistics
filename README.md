@@ -12,8 +12,7 @@ For these challenge, you need:
 2. Text editor (Visual Studio Code is recommended);
 3. Git.
 4. Postman (optional)
-5. Check the following site to generate a API key and Url:
-5.1. [API-Ninjas](https://api-ninjas.com/api/population)
+5. Check the following site to generate a API key and Url: [API-Ninjas](https://api-ninjas.com/api/population)
 
 ## Clonning a repository
 
