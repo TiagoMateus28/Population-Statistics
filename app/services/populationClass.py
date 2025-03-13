@@ -1,28 +1,32 @@
 
 
 class PopulationData:
-    def __init__(self, country_name: str, historical_population: list, population_forecast: list):
-        self.country_name = country_name
-        self.historical_population = historical_population
-        self.population_forecast = population_forecast
+    
+    year_range
+    
+    def __init__(self, country_name: str, historical_population: list):
+        self.country_name: str = country_name
+        self.__historical_population: list = historical_population #private attribute
+
+
+    def get_year_range(self):
+        years = [year["year"] for year in self.__historical_population]
+
+        # Get the range from the first and last year
+        return f"From {max(years)} to {min(years)}"
 
     def __repr__(self):
-        return f"PopulationData(country_name={self.country_name}, " \
-               f"historical_population={len(self.historical_population)} records, " \
-               f"population_forecast={len(self.population_forecast)} records)"
+        return f"For the PopulationData(country_name={self.country_name}, " \
+               f"We have {len(self.__historical_population)} historical_population records " \
+               f"from {self.get_year_range()}"
 
     def get_population_for_year(self, year: int):
-        """Get the population for the given year, from both historical and forecasted data."""
+        """Get the population for the given year, from both historical."""
         try:
             # Check in historical data
-            for record in self.historical_population:
+            for record in self.__historical_population:
                 if record["year"] == year:
                     return record["population"]
-
-            # Check in forecasted data
-            for forecast in self.population_forecast:
-                if forecast["year"] == year:
-                    return forecast["population"]
 
             # If no data for the year
             raise ValueError(f"No population data available for year {year}")
