@@ -20,7 +20,7 @@ For these challenge, you need:
 2. Enter "git clone [Population-Statistics](https://github.com/TiagoMateus28/Population-Statistics.git)";
 3. Ensure the project was correctly cloned.
 
-# ENV CREATE / INSTALL / ACTIVATE
+# ENV Create / Install / Active
 
 1. Create a new environment `python -m venv [NAME]`;
 2. Activating the environment `./[NAME]/Scripts/activate`;
