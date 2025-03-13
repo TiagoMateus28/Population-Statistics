@@ -34,15 +34,19 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 1. API_KEY=your_population_api_key_here
 2. API_URL = https://api.api-ninjas.com/v1/population
 
-# How to run
+# How to run locally
 
 1. Ensure the virtual environment is active
 2. Make sure you are at the app folder level
-3. Use the following command "uvicorn main:app --reload"
-
+3. Use the following command "uvicorn main:app --reload" (Image 
 ![image](https://github.com/user-attachments/assets/6e961218-54d5-4ac9-8b02-ca4f5886136d)
+4. The FastAPI application will be accessible at e.g.`http://127.0.0.1:8000`.
+5. Add the http://127.0.0.1:8000 + /docs to open a Interactive API Documentation 
+![image](https://github.com/user-attachments/assets/438af688-7e06-41b2-8d85-953a2e48bf14)
 
-The FastAPI application will be accessible at e.g.`http://127.0.0.1:8000`.
+
+
+
 
 
 
