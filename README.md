@@ -60,6 +60,13 @@ GET /population/{country_name}
 
 Request example: http://127.0.0.1:8000/population/Portugal?year=2023
 
+Response example: 
+{
+  "country": "Portugal",
+  "year": 2023,
+  "population": 10430738
+}
+
 ### Description
 
 Fetches the current population size for a given country and year.
