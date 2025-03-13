@@ -58,6 +58,8 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 
 GET /population/{country_name}
 
+Request example: http://127.0.0.1:8000/population/Portugal?year=2023
+
 ### Description
 
 Fetches the current population size for a given country and year.
