@@ -3,12 +3,6 @@ Population Statistics data processing pipeline code challenge
 
 
 
-
-
-
-
-
-
 # Setting Up
 
 ## Overall Requirements
@@ -18,6 +12,8 @@ For these challenge, you need:
 2. Text editor (Visual Studio Code is recommended);
 3. Git.
 4. Postman (optional)
+5. Check the following site to generate a API key and Url:
+5.1. [API-Ninjas](https://api-ninjas.com/api/population)
 
 ## Clonning a repository
 
@@ -32,3 +28,17 @@ For these challenge, you need:
 3. Installing a list of requirements `pip install -r [REQUIREMENTS_FILE_NAME].txt`.
 
 Additional: creating a requirements file `pip -freeze > requirements.txt`.
+
+
+#Set up environment variables
+
+1. API_KEY=your_population_api_key_here
+2. API_URL = https://api.api-ninjas.com/v1/population
+
+# How to run
+
+1. Ensure the virtual environment is active
+2. Use uvicorn to start 
+
+
+
