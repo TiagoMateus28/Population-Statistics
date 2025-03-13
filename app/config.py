@@ -1,0 +1,19 @@
+
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+# Configuration class
+class Config:
+    
+    api_url: str = os.getenv("API_URL")
+    api_key: str = os.getenv("API_KEY")
+    
+    headers: dict = {
+        
+        "x-api-key": api_key,
+        "Content-Type": "application/json"
+    }
+    
