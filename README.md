@@ -37,7 +37,12 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 # How to run
 
 1. Ensure the virtual environment is active
-2. Use the following command "uvicorn main:app --reload"
+2. Make sure you are at the app folder level
+3. Use the following command "uvicorn main:app --reload"
+
+![image](https://github.com/user-attachments/assets/6e961218-54d5-4ac9-8b02-ca4f5886136d)
+
+The FastAPI application will be accessible at e.g.`http://127.0.0.1:8000`.
 
 
 
