@@ -9,7 +9,7 @@ router = APIRouter()
 # Instantiate PopulationService
 population_service = PopulationService()
 
-@router.get("/population/{country_name}")
+@router.get("/population/{country_name}", description="Retrieve the population of a given country for a specified year.")
 async def get_population(country_name: str, year: int = Query(..., ge=1995, le=2024)): # Query to ensure the year is within the range of 2024 to 1995
     try:
         # Get population for the year using the service
