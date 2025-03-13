@@ -1,9 +1,8 @@
+# main.py
+from fastapi import FastAPI
+from router.populatio_router import router
 
+app = FastAPI()
 
-from config import Config
-
-
-excample = Config()
-
-print(excample.api_key)
-print(excample.api_url)
+# Include the population router
+app.include_router(router)
