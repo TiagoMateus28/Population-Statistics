@@ -1,5 +1,6 @@
 # Population-Statistics
-Population Statistics data processing pipeline code challenge
+The Population Statistics Service provides APIs to fetch current population data for a given country and year for further population statistics such as minimum, maximum, and average population.
+The service fetches population data from an external API, stores it locally, and computes statistics based on historical data.
 
 
 
