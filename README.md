@@ -43,6 +43,10 @@ Additional: creating a requirements file `pip -freeze > requirements.txt`.
 4. The FastAPI application will be accessible at e.g.`http://127.0.0.1:8000`.
 5. Add the http://127.0.0.1:8000 + /docs to open a Interactive API Documentation 
 ![image](https://github.com/user-attachments/assets/438af688-7e06-41b2-8d85-953a2e48bf14)
+6. After the previous step test the endpoint by giving input as follows:
+
+![image](https://github.com/user-attachments/assets/8c5ab5f9-145a-435e-8a83-a070c14dbcd0)
+
 
 
 
