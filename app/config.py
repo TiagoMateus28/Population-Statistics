@@ -1,9 +1,9 @@
 
+from dotenv import load_dotenv
 import os
 
-from dotenv import load_dotenv
-
-
+# Load environment variables
+load_dotenv()
 
 # Configuration class
 class Config:
@@ -13,7 +13,7 @@ class Config:
     
     headers: dict = {
         
-        "x-api-key": api_url,
+        "x-api-key": api_key,
         "Content-Type": "application/json"
     }
     
