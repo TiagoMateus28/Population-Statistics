@@ -62,18 +62,18 @@ GET /population/{country_name}
 
 Fetches the current population size for a given country and year.
 
-## Path Parameters
+### Path Parameters
 
 country_name (string) (required)
 The name of the country for which the population data is being requested. Example: "USA", "India".
 
-## Query Parameters
+### Query Parameters
 
 year (integer) (required)
 The year for which the population data is requested. The value must be between 1995 and 2024, inclusive.
 Example: 2000, 2010, 2020.
 
-## Constraints
+### Constraints
 The year parameter must be a valid integer between 2024 and 1995.
 
 
