@@ -22,7 +22,7 @@ For these challenge, you need:
 ## Clonning a repository
 
 1. Open terminal (you can use the integrated terminal in visual studio);
-2. Enter "git clone [Population-Statistics](https://choosealicense.com/licenses/mit/](https://github.com/TiagoMateus28/Population-Statistics.git)";
+2. Enter "git clone [Population-Statistics](https://github.com/TiagoMateus28/Population-Statistics.git)";
 3. Ensure the project was correctly cloned.
 
 # ENV CREATE / INSTALL / ACTIVATE
